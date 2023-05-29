@@ -15,6 +15,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    // creo el producto
     @PostMapping
     public ResponseEntity<Object> postProduct (@RequestBody Product product){
         try{
@@ -34,6 +35,7 @@ public class ProductController {
         }
     }
 
+    //Creo un Get para buscar al producto por id
     @GetMapping(path = "{id}")
     public ResponseEntity<Object> getProduct (@PathVariable() int id){
         try{

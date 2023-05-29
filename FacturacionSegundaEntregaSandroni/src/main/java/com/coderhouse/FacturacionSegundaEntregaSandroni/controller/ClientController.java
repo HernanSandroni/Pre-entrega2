@@ -17,6 +17,7 @@ public class ClientController {
     @Autowired
     private ClientService clientService;
 
+    // creo al cliente
     @PostMapping
     public ResponseEntity<Object> postClient (@RequestBody Client client){
         try{
@@ -36,6 +37,7 @@ public class ClientController {
         }
     }
 
+    //Creo un Get para buscar al cliente por id
     @GetMapping(path = "{id}")
     public ResponseEntity<Object> getClient (@PathVariable() int id) {
         try {
