@@ -16,4 +16,4 @@ public class FacturacionSegundaEntregaSandroniApplication implements CommandLine
 		System.out.println("Server listening. Access H2 on: http://localhost:8888/h2-console");
 
 	}
-}
+} // hola juano
