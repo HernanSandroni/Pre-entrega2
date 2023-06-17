@@ -1,5 +1,5 @@
 # Pre-entrega2
-*FacturacionSegundaEntregaSandroni
+*FacturacionSegundaEntregaSandroni*
 
 **segunda parte del proyecto final en CoderHouse**
 
